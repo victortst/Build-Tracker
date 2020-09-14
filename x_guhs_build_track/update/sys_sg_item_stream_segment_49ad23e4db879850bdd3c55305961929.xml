@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_segment">
+    <sys_sg_item_stream_segment action="INSERT_OR_UPDATE">
+        <interleave_order_direction>asc</interleave_order_direction>
+        <name>BTKR Item Stream Segment</name>
+        <order>0</order>
+        <screen display_value="BTKRs">05ad23ecdb479850bdd3c553059619dd</screen>
+        <sys_class_name>sys_sg_item_stream_segment</sys_class_name>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-01 16:53:12</sys_created_on>
+        <sys_id>49ad23e4db879850bdd3c55305961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BTKR Item Stream Segment</sys_name>
+        <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
+        <sys_update_name>sys_sg_item_stream_segment_49ad23e4db879850bdd3c55305961929</sys_update_name>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-01 16:53:12</sys_updated_on>
+    </sys_sg_item_stream_segment>
+</record_update>

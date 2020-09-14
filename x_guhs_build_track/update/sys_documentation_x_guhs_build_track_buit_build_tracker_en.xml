@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="build_tracker" label="Build Tracker" language="en" table="x_guhs_build_track_buit">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>build_tracker</element>
+            <help/>
+            <hint/>
+            <label>Build Tracker</label>
+            <language>en</language>
+            <name>x_guhs_build_track_buit</name>
+            <plural>Build Trackers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-03 19:26:31</sys_created_on>
+            <sys_id>9ae3a291db4fdc50bdd3c55305961982</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Build Tracker</sys_name>
+            <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
+            <sys_update_name>sys_documentation_x_guhs_build_track_buit_build_tracker_en</sys_update_name>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-03 19:26:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

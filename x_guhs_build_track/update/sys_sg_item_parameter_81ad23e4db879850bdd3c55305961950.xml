@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="INSERT_OR_UPDATE">
+        <default_value/>
+        <name>BTKR affected_app</name>
+        <parent>89ad23e4db879850bdd3c5530596194f</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-01 16:53:12</sys_created_on>
+        <sys_id>81ad23e4db879850bdd3c55305961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BTKR affected_app</sys_name>
+        <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_81ad23e4db879850bdd3c55305961950</sys_update_name>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-01 16:53:12</sys_updated_on>
+        <type>string</type>
+    </sys_sg_item_parameter>
+</record_update>

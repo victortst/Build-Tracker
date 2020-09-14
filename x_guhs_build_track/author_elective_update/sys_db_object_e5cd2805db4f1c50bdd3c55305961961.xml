@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Imp Tmpl X Guhs Build Track Btkr</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>u_imp_tmpl_x_guhs_build_track_btkr</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">2454a855db222300cc1b80ba689619ce</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-02 16:11:53</sys_created_on>
+        <sys_id>e5cd2805db4f1c50bdd3c55305961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Imp Tmpl X Guhs Build Track Btkr</sys_name>
+        <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
+        <sys_update_name>sys_db_object_e5cd2805db4f1c50bdd3c55305961961</sys_update_name>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-02 16:11:53</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</application>
+        <file_path/>
+        <instance_id>cda1ecd1db2a6f80b847ac44d4961987</instance_id>
+        <instance_name>gundersendev</instance_name>
+        <name>sys_db_object_e5cd2805db4f1c50bdd3c55305961961</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Imp Tmpl X Guhs Build Track Btkr</label><live_feed_enabled>false</live_feed_enabled><name>u_imp_tmpl_x_guhs_build_track_btkr</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">2454a855db222300cc1b80ba689619ce</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>VCheung</sys_created_by><sys_created_on>2020-09-02 16:11:53</sys_created_on><sys_id>e5cd2805db4f1c50bdd3c55305961961</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Imp Tmpl X Guhs Build Track Btkr</sys_name><sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package><sys_policy/><sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope><sys_update_name>sys_db_object_e5cd2805db4f1c50bdd3c55305961961</sys_update_name><sys_updated_by>VCheung</sys_updated_by><sys_updated_on>2020-09-02 16:11:53</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>155942288</payload_hash>
+        <record_name>Imp Tmpl X Guhs Build Track Btkr</record_name>
+        <reverted_from/>
+        <source>5f966fe0db479850bdd3c553059619f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-02 16:11:54</sys_created_on>
+        <sys_id>39cd2805db4f1c50bdd3c553059619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1744f96c4300000001</sys_recorded_at>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-02 16:11:54</sys_updated_on>
+        <type>Table</type>
+        <update_guid>b1cd2805b64f1c50c4d9917f760841d9</update_guid>
+        <update_guid_history>b1cd2805b64f1c50c4d9917f760841d9:155942288</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-02 20:24:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>2c6c0aae31d644b095dbd54520718c40</sys_id>
+        <sys_metadata>e5cd2805db4f1c50bdd3c55305961961</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Imp Tmpl X Guhs Build Track Btkr</sys_name>
+        <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
+        <sys_scope_delete display_value="">13a25a3bcc3842cf835be9ae40594fc9</sys_scope_delete>
+        <sys_update_name>sys_db_object_e5cd2805db4f1c50bdd3c55305961961</sys_update_name>
+        <sys_update_version display_value="sys_db_object_e5cd2805db4f1c50bdd3c55305961961">39cd2805db4f1c50bdd3c553059619d9</sys_update_version>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-02 20:24:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

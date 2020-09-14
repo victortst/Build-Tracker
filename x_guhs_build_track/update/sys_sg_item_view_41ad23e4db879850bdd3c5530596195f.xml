@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
+    <sys_sg_item_view action="INSERT_OR_UPDATE">
+        <data_item display_value="Build Tracker BUIT">4dad23e4db879850bdd3c5530596195e</data_item>
+        <dependency_fields>ini,item_no,number,seq_change_tracker_no</dependency_fields>
+        <item_view_json>{"Children":[{"Children":[{"Children":[{"BackgroundColor":"#f1f1f1","TextColor":"#293e40","studio_template_field_id":"E1","Width":100,"Height":21,"Text":"","Font":{"Weight":"semibold","Size":13},"CornerRadius":2,"CellId":"ini","TextAlignment":"Center","MaxLines":1,"Type":"Text"}],"Distribution":"Auto","Alignment":"Left","Orientation":"Vertical","Margin":{"Right":12},"Type":"ViewGroup"},{"Children":[{"TextColor":"#7d8a8c","studio_template_field_id":"E2","Text":"","Font":{"Weight":"regular","Size":13},"CellId":"item_no","TextAlignment":"Right","MaxLines":1,"Type":"Text"}],"Distribution":"Auto","Alignment":"Right","Orientation":"Vertical","Type":"ViewGroup"}],"Distribution":"Equal","Alignment":"Stretch","Orientation":"Horizontal","Type":"ViewGroup"},{"TextColor":"#293e40","studio_template_field_id":"E3","Text":"","Font":{"Weight":"regular","Size":18},"CellId":"number","TextAlignment":"Left","MaxLines":2,"Margin":{"Top":9},"Type":"Text"},{"Children":[{"Children":[{"studio_template_is_label":true,"TextColor":"#7d8a8c","studio_template_field_id":"E4","Text":"${seq_change_tracker_no}","Font":{"Weight":"regular","Size":13},"TextAlignment":"Left","MaxLines":1,"Margin":{"Right":8},"Type":"Text"},{"Scaling":"Fill","studio_template_field_id":"E5","Width":22,"Height":22,"CornerRadius":11,"CellId":"","Margin":{"Right":6},"Type":"Image"},{"TextColor":"#293e40","studio_template_field_id":"E4","Text":"","Font":{"Weight":"regular","Size":13},"CellId":"seq_change_tracker_no","TextAlignment":"Left","MaxLines":1,"Type":"Text"}],"Distribution":"Auto","Alignment":"Center","Orientation":"Horizontal","Margin":{"Top":9},"Type":"ViewGroup"},{"Children":[{"studio_template_is_label":true,"TextColor":"#7d8a8c","studio_template_field_id":"E6","Text":"","Font":{"Weight":"regular","Size":13},"TextAlignment":"Left","MaxLines":1,"Margin":{"Right":8},"Type":"Text"},{"TextColor":"#293e40","studio_template_field_id":"E6","Text":"","Font":{"Weight":"regular","Size":13},"CellId":"","TextAlignment":"Left","MaxLines":1,"Type":"Text"}],"Distribution":"Auto","Alignment":"Center","Orientation":"Horizontal","Margin":{"Top":7},"Type":"ViewGroup"}],"Distribution":"Auto","Alignment":"Left","Orientation":"Vertical","Type":"ViewGroup"}],"Distribution":"Auto","studio_card_id":"9599488923452300a8ed7f4fc7bf652e","Alignment":"Stretch","Orientation":"Vertical","Margin":{"Bottom":15,"Top":17},"Type":"ViewGroup"}</item_view_json>
+        <name>BUIT List Screen Item View</name>
+        <short_description/>
+        <sys_class_name>sys_sg_item_view</sys_class_name>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-01 16:53:13</sys_created_on>
+        <sys_id>41ad23e4db879850bdd3c5530596195f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BUIT List Screen Item View</sys_name>
+        <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
+        <sys_update_name>sys_sg_item_view_41ad23e4db879850bdd3c5530596195f</sys_update_name>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-01 16:53:13</sys_updated_on>
+        <table>x_guhs_build_track_buit</table>
+        <ui_styles/>
+    </sys_sg_item_view>
+</record_update>

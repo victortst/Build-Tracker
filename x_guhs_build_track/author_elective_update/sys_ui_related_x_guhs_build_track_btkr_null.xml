@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related action="DELETE" sys_domain="global" table="x_guhs_build_track_btkr" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Build Tracker - Default view" name="x_guhs_build_track_btkr" related_list="NULL" sys_domain="global" view="Default view">e4a49185db835c50bdd3c55305961914</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_guhs_build_track_buit.build_tracker</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-02 19:01:40</sys_created_on>
+            <sys_id>e4a49185db835c50bdd3c55305961915</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-02 19:01:40</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Build Tracker - Default view</calculated_name>
+            <filter/>
+            <name>x_guhs_build_track_btkr</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-02 19:01:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e4a49185db835c50bdd3c55305961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Build Tracker - Default view</sys_name>
+            <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
+            <sys_update_name>sys_ui_related_x_guhs_build_track_btkr_null</sys_update_name>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-02 19:01:40</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</application>
+        <file_path/>
+        <instance_id>cda1ecd1db2a6f80b847ac44d4961987</instance_id>
+        <instance_name>gundersendev</instance_name>
+        <name>sys_ui_related_x_guhs_build_track_btkr_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="x_guhs_build_track_btkr" version="2" view=""><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Build Tracker - Default view" name="x_guhs_build_track_btkr" related_list="NULL" sys_domain="global" view="Default view">e4a49185db835c50bdd3c55305961914</list_id><order_by/><position>0</position><related_list>x_guhs_build_track_buit.build_tracker</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>VCheung</sys_created_by><sys_created_on>2020-09-02 19:01:40</sys_created_on><sys_id>e4a49185db835c50bdd3c55305961915</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>VCheung</sys_updated_by><sys_updated_on>2020-09-02 19:01:40</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>Build Tracker - Default view</calculated_name><filter/><name>x_guhs_build_track_btkr</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>VCheung</sys_created_by><sys_created_on>2020-09-02 19:01:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e4a49185db835c50bdd3c55305961914</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Build Tracker - Default view</sys_name><sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package><sys_policy/><sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope><sys_update_name>sys_ui_related_x_guhs_build_track_btkr_null</sys_update_name><sys_updated_by>VCheung</sys_updated_by><sys_updated_on>2020-09-02 19:01:40</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+        <payload_hash>1582452503</payload_hash>
+        <record_name>Build Tracker</record_name>
+        <reverted_from/>
+        <source>5f966fe0db479850bdd3c553059619f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-02 19:01:40</sys_created_on>
+        <sys_id>a4a49185db835c50bdd3c55305961917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174503230940000001</sys_recorded_at>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-02 19:01:40</sys_updated_on>
+        <type>Related Lists</type>
+        <update_guid>6ca491854a835c50d12c2a2c09e2c816</update_guid>
+        <update_guid_history>6ca491854a835c50d12c2a2c09e2c816:1582452503,b6a19d8d29435c50d830222fcd78a727:1746236854,093b6070aa079c1063a9e6aab213ef5a:-1741000655,97b9e4bc9fc39c104611ef78a6d90c9b:-442937298,2378a03ca3c39c10fa00f4e7489dc2c6:2088277276,4f182cf8afc39c103b0992a089e7b5b1:-472835596,b6d728f89cc39c10710df53727285e12:-1030297977,cfb724f812c39c101d0ff97885ce22c6:-1028071348,9796e478c0c39c10efb6ddf96fd27ef2:-1436632014,480dfba4320b985065567027f7869bf4:-430729165,48ecf3287c0b9850d1b4dbee94ef42dd:-1441204066,18063b28bec798506631633c43d8e61b:-1270768247,7d22f32011c798505c907df1f9ff1422:-515369914</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-03 16:11:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_related_list">sys_ui_related_list</sys_db_object>
+        <sys_id>337b908c507e46a0af5bc87f734ac290</sys_id>
+        <sys_metadata>e4a49185db835c50bdd3c55305961914</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Build Tracker - Default view</sys_name>
+        <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
+        <sys_parent display_value="">4bb9e368db479850bdd3c55305961963</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
+        <sys_scope_delete display_value="">13a25a3bcc3842cf835be9ae40594fc9</sys_scope_delete>
+        <sys_update_name>sys_ui_related_x_guhs_build_track_btkr_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_related_x_guhs_build_track_btkr_null">a4a49185db835c50bdd3c55305961917</sys_update_version>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-03 16:11:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Build Tracker" max_length="40" name="x_guhs_build_track_btkr" sizeclass="21" type="collection">
+        <element label="Category Item" max_length="1000" name="category_item" type="string"/>
+        <element label="Change Request" max_length="32" name="change_request" reference="change_request" type="reference"/>
+        <element choice="1" label="Change Type" max_length="40" name="change_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Modified" sequence="2" value="2"/>
+            </choice>
+        </element>
+        <element label="Date in MST" max_length="40" name="date_in_mst" type="glide_date"/>
+        <element label="Date in POC" mandatory="true" max_length="40" name="date_in_poc" type="glide_date"/>
+        <element label="Date in PRD" mandatory="true" max_length="40" name="date_in_prd" type="glide_date"/>
+        <element label="Date in TST" mandatory="true" max_length="40" name="date_in_tst" type="glide_date"/>
+        <element choice="1" label="Deleted" max_length="40" name="deleted" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="Y"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="N"/>
+            </choice>
+        </element>
+        <element choice="1" label="Hidden" max_length="40" name="hidden" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="Y"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="N"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="ini" choice_table="x_guhs_build_track_ini" label="INI" mandatory="true" max_length="40" name="ini" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="DEP" value="DEP"/>
+                <element inactive_on_update="false" label="IDB" value="IDB"/>
+                <element inactive_on_update="false" label="IDM" value="IDM"/>
+            </choice>
+        </element>
+        <element label="Item Numbers" max_length="200" name="item_numbers" type="string"/>
+        <element choice="1" label="Manual Build" max_length="40" name="manual_build" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="Y"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="N"/>
+            </choice>
+        </element>
+        <element label="Notes" max_length="4000" name="notes" type="string"/>
+        <element choice="1" label="No Longer Usesd" max_length="40" name="no_longer_usesd" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="Y"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="N"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" mandatory="true" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Record ID" mandatory="true" max_length="40" name="record_id" type="string"/>
+        <element label="Record Name" max_length="200" name="record_name" type="string"/>
+        <element label="Requester" mandatory="true" max_length="32" name="requester" reference="sys_user" type="reference"/>
+        <element label="SN References" max_length="200" name="sn_references" type="string"/>
+        <element choice="1" label="Source" max_length="40" name="source" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Epic" value="1"/>
+                <element inactive_on_update="false" label="GHS" value="2"/>
+            </choice>
+        </element>
+        <element choice="1" label="Version Skew" max_length="40" name="version_skew" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="Y"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="N"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="requester"/>
+        </index>
+        <index name="index2">
+            <element name="change_request"/>
+        </index>
+    </element>
+</database>

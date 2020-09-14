@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>Delete (BUIT)</name>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-01 16:53:13</sys_created_on>
+        <sys_id>01ad23e4db879850bdd3c55305961962</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete (BUIT)</sys_name>
+        <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_01ad23e4db879850bdd3c55305961962</sys_update_name>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-01 16:53:13</sys_updated_on>
+        <table>x_guhs_build_track_buit</table>
+        <template/>
+        <type>delete</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+</record_update>

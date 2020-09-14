@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>build_tracker,ini,item_no</col_name_string>
+        <index_col_name>9fc3ea11db4fdc50bdd3c553059619d4,2e1b632cdb479850bdd3c55305961947,ffb656e11b0b94505b76b9d1cd4bcbda</index_col_name>
+        <logical_table_name>x_guhs_build_track_buit</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2020-09-08 19:15:48</sys_created_on>
+        <sys_id>8e61d483db031810bdd3c5530596198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_guhs_build_track_buit</sys_name>
+        <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
+        <sys_update_name>sys_index_x_guhs_build_track_buit_build_tracker_ini_item_no</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-09-08 19:15:48</sys_updated_on>
+        <table display_value="Build Tracker Item" name="x_guhs_build_track_buit">aa1b632cdb479850bdd3c55305961907</table>
+        <unique_index>true</unique_index>
+    </sys_index>
+</record_update>

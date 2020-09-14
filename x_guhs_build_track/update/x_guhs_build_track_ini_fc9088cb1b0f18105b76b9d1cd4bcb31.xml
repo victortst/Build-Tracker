@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_guhs_build_track_ini">
+    <x_guhs_build_track_ini action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ini>LWS</ini>
+        <item_name>REMOTE ATTACHED</item_name>
+        <item_no>425</item_no>
+        <number>BINI1044179</number>
+        <order>100</order>
+        <sys_class_name>x_guhs_build_track_ini</sys_class_name>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-08 18:02:15</sys_created_on>
+        <sys_id>fc9088cb1b0f18105b76b9d1cd4bcb31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
+        <sys_update_name>x_guhs_build_track_ini_fc9088cb1b0f18105b76b9d1cd4bcb31</sys_update_name>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-08 18:02:15</sys_updated_on>
+    </x_guhs_build_track_ini>
+</record_update>

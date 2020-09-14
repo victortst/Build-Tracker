@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script><![CDATA[redirectToURL = function(attributes) {
+  var href = self.location.href;
+  var pageURL = 'u_redirect.do?redirectURL=';
+  var pos = href.indexOf(pageURL);       //find the page and variable names in the URL
+  pos += pageURL.length;                 //then add the length of the variable name
+  var newRecord = href.substring(pos);   //and you get the URL of the record you want to end up at
+  var newURL = href.substring(0,href.indexOf(pageURL)) + newRecord;
+
+  window.location.href = newURL;
+}
+
+setTimeout('redirectToURL()',2000);]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_guhs_build_track_u_redirect.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<table border="0" width="100%">
+  <tr>
+    <td nowrap="nowrap" align="center">
+      Setting up the workflows...
+      Will redirect in 5 seconds!!!
+    </td>
+  </tr>
+</table>
+</j:jelly>]]></html>
+        <name>u_redirect</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-09 16:32:02</sys_created_on>
+        <sys_id>0b25fc1bdb439810bdd3c5530596190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_redirect</sys_name>
+        <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
+        <sys_update_name>sys_ui_page_0b25fc1bdb439810bdd3c5530596190a</sys_update_name>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-09 16:32:02</sys_updated_on>
+    </sys_ui_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</application>
+        <file_path/>
+        <instance_id>cda1ecd1db2a6f80b847ac44d4961987</instance_id>
+        <instance_name>gundersendev</instance_name>
+        <name>sys_ui_page_0b25fc1bdb439810bdd3c5530596190a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[redirectToURL = function(attributes) {
+  var href = self.location.href;
+  var pageURL = 'u_redirect.do?redirectURL=';
+  var pos = href.indexOf(pageURL);       //find the page and variable names in the URL
+  pos += pageURL.length;                 //then add the length of the variable name
+  var newRecord = href.substring(pos);   //and you get the URL of the record you want to end up at
+  var newURL = href.substring(0,href.indexOf(pageURL)) + newRecord;
+
+  window.location.href = newURL;
+}
+
+setTimeout('redirectToURL()',2000);]]&gt;&lt;/client_script&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_guhs_build_track_u_redirect.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+&lt;table border="0" width="100%"&gt;
+  &lt;tr&gt;
+    &lt;td nowrap="nowrap" align="center"&gt;
+      Setting up the workflows...
+      Will redirect in 5 seconds!!!
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;u_redirect&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;VCheung&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-09 16:32:02&lt;/sys_created_on&gt;&lt;sys_id&gt;0b25fc1bdb439810bdd3c5530596190a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_redirect&lt;/sys_name&gt;&lt;sys_package display_value="Build Tracker" source="x_guhs_build_track"&gt;1b966fe0db479850bdd3c553059619f0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Build Tracker"&gt;1b966fe0db479850bdd3c553059619f0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_0b25fc1bdb439810bdd3c5530596190a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;VCheung&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-09 16:32:02&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1598245362</payload_hash>
+        <record_name>u_redirect</record_name>
+        <reverted_from/>
+        <source>5f966fe0db479850bdd3c553059619f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-09 16:32:02</sys_created_on>
+        <sys_id>b085701fdb439810bdd3c55305961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17473b5b6a20000001</sys_recorded_at>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-09 16:32:02</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>b885701ff943981076142edf19a74002</update_guid>
+        <update_guid_history>b885701ff943981076142edf19a74002:-1598245362</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-09 16:32:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>193b261cad3d4380bd3a8c0be64a1000</sys_id>
+        <sys_metadata>0b25fc1bdb439810bdd3c5530596190a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_redirect</sys_name>
+        <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
+        <sys_scope_delete display_value="">13a25a3bcc3842cf835be9ae40594fc9</sys_scope_delete>
+        <sys_update_name>sys_ui_page_0b25fc1bdb439810bdd3c5530596190a</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_0b25fc1bdb439810bdd3c5530596190a">b085701fdb439810bdd3c55305961903</sys_update_version>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-09 16:32:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Build Tracker" max_length="40" name="u_build_tracker" sizeclass="90" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Affected App" max_length="40" name="u_affected_app" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Change Request" max_length="40" name="u_change_request" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CHANGE_TYPE_NO" max_length="40" name="u_change_type_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="DELETED_IND" max_length="40" name="u_deleted_ind" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="HIDDEN_IND" max_length="40" name="u_hidden_ind" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="MANUAL_IND" max_length="40" name="u_manual_ind" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="MSTR_DATE" max_length="40" name="u_mstr_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="MSTR_IND" max_length="40" name="u_mstr_ind" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="NOT_USED_IND" max_length="40" name="u_not_used_ind" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="OWNER_NO" max_length="40" name="u_owner_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="POC_DATE" max_length="40" name="u_poc_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="POC_IND" max_length="40" name="u_poc_ind" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PRD_DATE" max_length="40" name="u_prd_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PRD_IND" max_length="40" name="u_prd_ind" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SEQ_CHANGE_NO" max_length="40" name="u_seq_change_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SEQ_CHANGE_TRACKER_NO" max_length="40" name="u_seq_change_tracker_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SKEW_IND" max_length="40" name="u_skew_ind" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SN_REFERENCE" max_length="40" name="u_sn_reference" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SOURCE_NO" max_length="40" name="u_source_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="TRACKER_ID" max_length="40" name="u_tracker_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="TRACKER_NAME" max_length="40" name="u_tracker_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="TST_DATE" max_length="40" name="u_tst_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="TST_IND" max_length="40" name="u_tst_ind" type="string"/>
+    </element>
+</database>

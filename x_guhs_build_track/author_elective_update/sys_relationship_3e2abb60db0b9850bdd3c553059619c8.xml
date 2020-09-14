@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="DELETE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_guhs_build_track_btkr</basic_apply_to>
+        <basic_query_from>x_guhs_build_track_buit</basic_query_from>
+        <insert_callback/>
+        <name>Build Tracker</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+    current.addQuery('seq_change_tracker_no', parent.seq_change_tracker_no);
+    current.addQuery('ini', parent.ini);
+	
+})(current, parent);]]></query_with>
+        <reference_field>change_request</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-01 17:53:22</sys_created_on>
+        <sys_id>3e2abb60db0b9850bdd3c553059619c8</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Build Tracker</sys_name>
+        <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
+        <sys_update_name>sys_relationship_3e2abb60db0b9850bdd3c553059619c8</sys_update_name>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-01 20:01:08</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="DELETE" query="documentkey=3e2abb60db0b9850bdd3c553059619c8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</application>
+        <file_path/>
+        <instance_id>cda1ecd1db2a6f80b847ac44d4961987</instance_id>
+        <instance_name>gundersendev</instance_name>
+        <name>sys_relationship_3e2abb60db0b9850bdd3c553059619c8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;x_guhs_build_track_btkr&lt;/basic_apply_to&gt;&lt;basic_query_from&gt;x_guhs_build_track_buit&lt;/basic_query_from&gt;&lt;insert_callback/&gt;&lt;name&gt;Build Tracker&lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+    current.addQuery('seq_change_tracker_no', parent.seq_change_tracker_no);
+    current.addQuery('ini', parent.ini);
+	
+})(current, parent);]]&gt;&lt;/query_with&gt;&lt;reference_field&gt;change_request&lt;/reference_field&gt;&lt;related_list/&gt;&lt;simple_reference&gt;false&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;VCheung&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-01 17:53:22&lt;/sys_created_on&gt;&lt;sys_id&gt;3e2abb60db0b9850bdd3c553059619c8&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Build Tracker&lt;/sys_name&gt;&lt;sys_package display_value="Build Tracker" source="x_guhs_build_track"&gt;1b966fe0db479850bdd3c553059619f0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Build Tracker"&gt;1b966fe0db479850bdd3c553059619f0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_3e2abb60db0b9850bdd3c553059619c8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;VCheung&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-01 20:01:08&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3e2abb60db0b9850bdd3c553059619c8"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1974890458</payload_hash>
+        <record_name>Build Tracker</record_name>
+        <reverted_from/>
+        <source>5f966fe0db479850bdd3c553059619f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-01 20:01:08</sys_created_on>
+        <sys_id>35a8d4781b439c105b76b9d1cd4bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1744b4245690000001</sys_recorded_at>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-01 20:01:08</sys_updated_on>
+        <type>Relationship</type>
+        <update_guid>b5a890b41d439c10853e74b1acfc1a4a</update_guid>
+        <update_guid_history>b5a890b41d439c10853e74b1acfc1a4a:1974890458,ab6598f08d439c1035a3df42a0a88a4f:-2129279546,e0455c7013439c10d996387fa3527907:4416902,14f4d4bcb6039c1098477342e9a35399:-1974354290,587df3683b0b98504ec77e189d0b33a1:-2129279546,e14d3fe4560b98506124fddd18d3439e:4416902,58bc7ba42f0b98502ae0b04c93f00191:-2129279546,926bbb60e70b9850cf3ab9380012aa9e:4416902</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-01 21:09:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_relationship">sys_relationship</sys_db_object>
+        <sys_id>4d6d920f691a4fe881597a9cc233b090</sys_id>
+        <sys_metadata>3e2abb60db0b9850bdd3c553059619c8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Build Tracker</sys_name>
+        <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
+        <sys_parent display_value="">4bb9e368db479850bdd3c55305961963</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
+        <sys_scope_delete display_value="">13a25a3bcc3842cf835be9ae40594fc9</sys_scope_delete>
+        <sys_update_name>sys_relationship_3e2abb60db0b9850bdd3c553059619c8</sys_update_name>
+        <sys_update_version display_value="sys_relationship_3e2abb60db0b9850bdd3c553059619c8">35a8d4781b439c105b76b9d1cd4bcb4c</sys_update_version>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-01 21:09:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

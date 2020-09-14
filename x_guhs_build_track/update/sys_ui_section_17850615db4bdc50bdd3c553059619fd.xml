@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="17850615db4bdc50bdd3c553059619fd" sys_domain="global" table="x_guhs_build_track_btkr" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-09 15:53:12</sys_created_on>
+            <sys_id>379cacd7db039810bdd3c553059619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_guhs_build_track_btkr" sys_domain="global" view="Default view">17850615db4bdc50bdd3c553059619fd</sys_ui_section>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>record_id</element>
+            <position>1</position>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-09 15:53:12</sys_created_on>
+            <sys_id>fb9cacd7db039810bdd3c553059619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_guhs_build_track_btkr" sys_domain="global" view="Default view">17850615db4bdc50bdd3c553059619fd</sys_ui_section>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>record_name</element>
+            <position>2</position>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-09 15:53:12</sys_created_on>
+            <sys_id>7f9cacd7db039810bdd3c553059619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_guhs_build_track_btkr" sys_domain="global" view="Default view">17850615db4bdc50bdd3c553059619fd</sys_ui_section>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>source</element>
+            <position>3</position>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-09 15:53:12</sys_created_on>
+            <sys_id>ff9cacd7db039810bdd3c553059619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_guhs_build_track_btkr" sys_domain="global" view="Default view">17850615db4bdc50bdd3c553059619fd</sys_ui_section>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>change_type</element>
+            <position>4</position>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-09 15:53:12</sys_created_on>
+            <sys_id>739cacd7db039810bdd3c553059619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_guhs_build_track_btkr" sys_domain="global" view="Default view">17850615db4bdc50bdd3c553059619fd</sys_ui_section>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sn_references</element>
+            <position>5</position>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-09 15:53:12</sys_created_on>
+            <sys_id>f39cacd7db039810bdd3c553059619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_guhs_build_track_btkr" sys_domain="global" view="Default view">17850615db4bdc50bdd3c553059619fd</sys_ui_section>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>change_request</element>
+            <position>6</position>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-09 15:53:12</sys_created_on>
+            <sys_id>779cacd7db039810bdd3c553059619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_guhs_build_track_btkr" sys_domain="global" view="Default view">17850615db4bdc50bdd3c553059619fd</sys_ui_section>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ini</element>
+            <position>7</position>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-09 15:53:12</sys_created_on>
+            <sys_id>f79cacd7db039810bdd3c553059619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_guhs_build_track_btkr" sys_domain="global" view="Default view">17850615db4bdc50bdd3c553059619fd</sys_ui_section>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-09 15:53:12</sys_created_on>
+            <sys_id>7b9cacd7db039810bdd3c553059619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_guhs_build_track_btkr" sys_domain="global" view="Default view">17850615db4bdc50bdd3c553059619fd</sys_ui_section>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:53:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requester</element>
+            <position>9</position>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-09 15:53:12</sys_created_on>
+            <sys_id>fb9cacd7db039810bdd3c553059619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_guhs_build_track_btkr" sys_domain="global" view="Default view">17850615db4bdc50bdd3c553059619fd</sys_ui_section>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>no_longer_usesd</element>
+            <position>10</position>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-09 15:53:12</sys_created_on>
+            <sys_id>7f9cacd7db039810bdd3c553059619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_guhs_build_track_btkr" sys_domain="global" view="Default view">17850615db4bdc50bdd3c553059619fd</sys_ui_section>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hidden</element>
+            <position>11</position>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-09 15:53:12</sys_created_on>
+            <sys_id>ff9cacd7db039810bdd3c553059619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_guhs_build_track_btkr" sys_domain="global" view="Default view">17850615db4bdc50bdd3c553059619fd</sys_ui_section>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>deleted</element>
+            <position>12</position>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-09 15:53:12</sys_created_on>
+            <sys_id>739cacd7db039810bdd3c553059619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_guhs_build_track_btkr" sys_domain="global" view="Default view">17850615db4bdc50bdd3c553059619fd</sys_ui_section>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manual_build</element>
+            <position>13</position>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-09 15:53:12</sys_created_on>
+            <sys_id>f39cacd7db039810bdd3c553059619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_guhs_build_track_btkr" sys_domain="global" view="Default view">17850615db4bdc50bdd3c553059619fd</sys_ui_section>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>version_skew</element>
+            <position>14</position>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-09 15:53:12</sys_created_on>
+            <sys_id>779cacd7db039810bdd3c553059619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_guhs_build_track_btkr" sys_domain="global" view="Default view">17850615db4bdc50bdd3c553059619fd</sys_ui_section>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_in_poc</element>
+            <position>15</position>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-09 15:53:12</sys_created_on>
+            <sys_id>f79cacd7db039810bdd3c553059619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_guhs_build_track_btkr" sys_domain="global" view="Default view">17850615db4bdc50bdd3c553059619fd</sys_ui_section>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_in_tst</element>
+            <position>16</position>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-09 15:53:12</sys_created_on>
+            <sys_id>7b9cacd7db039810bdd3c553059619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_guhs_build_track_btkr" sys_domain="global" view="Default view">17850615db4bdc50bdd3c553059619fd</sys_ui_section>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_in_prd</element>
+            <position>17</position>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-09 15:53:12</sys_created_on>
+            <sys_id>fb9cacd7db039810bdd3c553059619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_guhs_build_track_btkr" sys_domain="global" view="Default view">17850615db4bdc50bdd3c553059619fd</sys_ui_section>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_in_mst</element>
+            <position>18</position>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-09 15:53:12</sys_created_on>
+            <sys_id>7f9cacd7db039810bdd3c553059619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_guhs_build_track_btkr" sys_domain="global" view="Default view">17850615db4bdc50bdd3c553059619fd</sys_ui_section>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>19</position>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-09 15:53:12</sys_created_on>
+            <sys_id>ff9cacd7db039810bdd3c553059619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_guhs_build_track_btkr" sys_domain="global" view="Default view">17850615db4bdc50bdd3c553059619fd</sys_ui_section>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:53:12</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category_item</element>
+            <position>20</position>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-09 15:53:12</sys_created_on>
+            <sys_id>739cacd7db039810bdd3c553059619eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_guhs_build_track_btkr" sys_domain="global" view="Default view">17850615db4bdc50bdd3c553059619fd</sys_ui_section>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notes</element>
+            <position>21</position>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-09 15:53:12</sys_created_on>
+            <sys_id>f39cacd7db039810bdd3c553059619eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_guhs_build_track_btkr" sys_domain="global" view="Default view">17850615db4bdc50bdd3c553059619fd</sys_ui_section>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-09 15:53:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_guhs_build_track_btkr</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-03 17:13:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17850615db4bdc50bdd3c553059619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_guhs_build_track_btkr</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
+            <sys_update_name>sys_ui_section_17850615db4bdc50bdd3c553059619fd</sys_update_name>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-03 17:13:53</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

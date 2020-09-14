@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="source" label="Source" language="en" table="x_guhs_build_track_btkr">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>source</element>
+            <help/>
+            <hint/>
+            <label>Source</label>
+            <language>en</language>
+            <name>x_guhs_build_track_btkr</name>
+            <plural>Sources</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-03 16:47:49</sys_created_on>
+            <sys_id>219f75d5db0bdc50bdd3c553059619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Source</sys_name>
+            <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
+            <sys_update_name>sys_documentation_x_guhs_build_track_btkr_source_en</sys_update_name>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-03 16:47:49</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

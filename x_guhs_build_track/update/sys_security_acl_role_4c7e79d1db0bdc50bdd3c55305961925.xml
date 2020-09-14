@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-03 16:42:48</sys_created_on>
+        <sys_id>4c7e79d1db0bdc50bdd3c55305961925</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_guhs_build_track_btkr.itil</sys_name>
+        <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
+        <sys_security_acl display_value="x_guhs_build_track_btkr">c87e39d1db0bdc50bdd3c553059619fc</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_4c7e79d1db0bdc50bdd3c55305961925</sys_update_name>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-03 17:19:35</sys_updated_on>
+        <sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

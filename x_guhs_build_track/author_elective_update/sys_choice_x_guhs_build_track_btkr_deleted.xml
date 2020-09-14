@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="deleted" table="x_guhs_build_track_btkr" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>deleted</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- New choice --</label>
+            <language>en</language>
+            <name>x_guhs_build_track_btkr</name>
+            <sequence/>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-03 17:00:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5562c25ddb0bdc50bdd3c5530596192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-03 17:00:05</sys_updated_on>
+            <value>-- New choice --</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>deleted</element>
+            <name>x_guhs_build_track_btkr</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-03 17:00:05</sys_created_on>
+            <sys_id>9d62c25ddb0bdc50bdd3c5530596192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>deleted</sys_name>
+            <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
+            <sys_update_name>sys_choice_x_guhs_build_track_btkr_deleted</sys_update_name>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-03 17:00:05</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</application>
+        <file_path/>
+        <instance_id>cda1ecd1db2a6f80b847ac44d4961987</instance_id>
+        <instance_name>gundersendev</instance_name>
+        <name>sys_choice_x_guhs_build_track_btkr_deleted</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="deleted" table="x_guhs_build_track_btkr" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>deleted</element><hint/><inactive>false</inactive><label>-- New choice --</label><language>en</language><name>x_guhs_build_track_btkr</name><sequence/><sys_created_by>VCheung</sys_created_by><sys_created_on>2020-09-03 17:00:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5562c25ddb0bdc50bdd3c5530596192f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>VCheung</sys_updated_by><sys_updated_on>2020-09-03 17:00:05</sys_updated_on><value>-- New choice --</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>deleted</element><name>x_guhs_build_track_btkr</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>VCheung</sys_created_by><sys_created_on>2020-09-03 17:00:05</sys_created_on><sys_id>9d62c25ddb0bdc50bdd3c5530596192f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>deleted</sys_name><sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package><sys_policy/><sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope><sys_update_name>sys_choice_x_guhs_build_track_btkr_deleted</sys_update_name><sys_updated_by>VCheung</sys_updated_by><sys_updated_on>2020-09-03 17:00:05</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-1045908100</payload_hash>
+        <record_name>Build Tracker.Deleted</record_name>
+        <reverted_from/>
+        <source>5f966fe0db479850bdd3c553059619f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-03 17:00:05</sys_created_on>
+        <sys_id>5562c25ddb0bdc50bdd3c55305961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17454e93d2a0000001</sys_recorded_at>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-03 17:00:05</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>dd62c25ddf0bdc509a846cfda5331830</update_guid>
+        <update_guid_history>dd62c25ddf0bdc509a846cfda5331830:-1045908100</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-03 17:00:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>9d62c25ddb0bdc50bdd3c5530596192f</sys_id>
+        <sys_metadata>9d62c25ddb0bdc50bdd3c5530596192f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>deleted</sys_name>
+        <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
+        <sys_scope_delete display_value="">13a25a3bcc3842cf835be9ae40594fc9</sys_scope_delete>
+        <sys_update_name>sys_choice_x_guhs_build_track_btkr_deleted</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_guhs_build_track_btkr_deleted">5562c25ddb0bdc50bdd3c55305961931</sys_update_version>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-03 17:00:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

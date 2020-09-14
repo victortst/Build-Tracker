@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="DELETE">
+        <description/>
+        <execution_script/>
+        <name>Edit (INI)</name>
+        <query_condition table="x_guhs_build_track_ini">sys_idSTARTSWITH{{INI sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{INI sys_id}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-01 16:53:13</sys_created_on>
+        <sys_id>85ad23e4db879850bdd3c5530596198f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Edit (INI)</sys_name>
+        <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_85ad23e4db879850bdd3c5530596198f</sys_update_name>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-01 16:53:13</sys_updated_on>
+        <table>x_guhs_build_track_ini</table>
+        <template>ini={{INI ini}}^item_name={{INI item_name}}^item_no={{INI item_no}}^number={{INI number}}^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</application>
+        <file_path/>
+        <instance_id>cda1ecd1db2a6f80b847ac44d4961987</instance_id>
+        <instance_name>gundersendev</instance_name>
+        <name>sys_sg_write_back_action_item_85ad23e4db879850bdd3c5530596198f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item"><sys_sg_write_back_action_item action="INSERT_OR_UPDATE"><description/><execution_script/><name>Edit (INI)</name><query_condition table="x_guhs_build_track_ini">sys_idSTARTSWITH{{INI sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{INI sys_id}}"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></query_condition><sys_class_name>sys_sg_write_back_action_item</sys_class_name><sys_created_by>VCheung</sys_created_by><sys_created_on>2020-09-01 16:53:13</sys_created_on><sys_id>85ad23e4db879850bdd3c5530596198f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Edit (INI)</sys_name><sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package><sys_policy/><sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope><sys_update_name>sys_sg_write_back_action_item_85ad23e4db879850bdd3c5530596198f</sys_update_name><sys_updated_by>VCheung</sys_updated_by><sys_updated_on>2020-09-01 16:53:13</sys_updated_on><table>x_guhs_build_track_ini</table><template>ini={{INI ini}}^item_name={{INI item_name}}^item_no={{INI item_no}}^number={{INI number}}^EQ</template><type>update</type><use_current_record_as_condition>true</use_current_record_as_condition></sys_sg_write_back_action_item></record_update>]]></payload>
+        <payload_hash>-805471358</payload_hash>
+        <record_name>Edit (INI)</record_name>
+        <reverted_from/>
+        <source>5f966fe0db479850bdd3c553059619f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-01 16:53:17</sys_created_on>
+        <sys_id>8eada3e4db879850bdd3c5530596190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1744a9648be0000001</sys_recorded_at>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-01 16:53:17</sys_updated_on>
+        <type>Action item</type>
+        <update_guid>0aada3e4e487985099344eeb82e48b0e</update_guid>
+        <update_guid_history>0aada3e4e487985099344eeb82e48b0e:-805471358</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-04 19:58:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_write_back_action_item">sys_sg_write_back_action_item</sys_db_object>
+        <sys_id>294d9b37afd74c00b3a22818368cfe29</sys_id>
+        <sys_metadata>85ad23e4db879850bdd3c5530596198f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit (INI)</sys_name>
+        <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
+        <sys_scope_delete display_value="">13a25a3bcc3842cf835be9ae40594fc9</sys_scope_delete>
+        <sys_update_name>sys_sg_write_back_action_item_85ad23e4db879850bdd3c5530596198f</sys_update_name>
+        <sys_update_version display_value="sys_sg_write_back_action_item_85ad23e4db879850bdd3c5530596198f">8eada3e4db879850bdd3c5530596190e</sys_update_version>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-04 19:58:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

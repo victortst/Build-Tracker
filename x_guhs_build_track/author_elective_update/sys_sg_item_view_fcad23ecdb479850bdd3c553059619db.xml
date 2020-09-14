@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
+    <sys_sg_item_view action="DELETE">
+        <data_item/>
+        <dependency_fields>affected_app,category_item,change_request,change_type_no,deleted_ind,hidden_ind</dependency_fields>
+        <item_view_json>{"Children":[{"Children":[{"Children":[{"BackgroundColor":"#f1f1f1","TextColor":"#293e40","studio_template_field_id":"E1","Width":100,"Height":21,"Text":"","Font":{"Weight":"semibold","Size":13},"CornerRadius":2,"CellId":"affected_app","TextAlignment":"Center","MaxLines":1,"Type":"Text"}],"Distribution":"Auto","Alignment":"Left","Orientation":"Vertical","Margin":{"Right":12},"Type":"ViewGroup"},{"Children":[{"TextColor":"#7d8a8c","studio_template_field_id":"E2","Text":"","Font":{"Weight":"regular","Size":13},"CellId":"category_item","TextAlignment":"Right","MaxLines":1,"Type":"Text"}],"Distribution":"Auto","Alignment":"Right","Orientation":"Vertical","Type":"ViewGroup"}],"Distribution":"Equal","Alignment":"Stretch","Orientation":"Horizontal","Type":"ViewGroup"},{"TextColor":"#293e40","studio_template_field_id":"E3","Text":"","Font":{"Weight":"regular","Size":18},"CellId":"change_request","TextAlignment":"Left","MaxLines":2,"Margin":{"Top":9},"Type":"Text"},{"Children":[{"Children":[{"studio_template_is_label":true,"TextColor":"#7d8a8c","studio_template_field_id":"E4","Text":"${change_type_no}","Font":{"Weight":"regular","Size":13},"TextAlignment":"Left","MaxLines":1,"Margin":{"Right":8},"Type":"Text"},{"Scaling":"Fill","studio_template_field_id":"E5","Width":22,"Height":22,"CornerRadius":11,"CellId":"deleted_ind","Margin":{"Right":6},"Type":"Image"},{"TextColor":"#293e40","studio_template_field_id":"E4","Text":"","Font":{"Weight":"regular","Size":13},"CellId":"change_type_no","TextAlignment":"Left","MaxLines":1,"Type":"Text"}],"Distribution":"Auto","Alignment":"Center","Orientation":"Horizontal","Margin":{"Top":9},"Type":"ViewGroup"},{"Children":[{"studio_template_is_label":true,"TextColor":"#7d8a8c","studio_template_field_id":"E6","Text":"${hidden_ind}","Font":{"Weight":"regular","Size":13},"TextAlignment":"Left","MaxLines":1,"Margin":{"Right":8},"Type":"Text"},{"TextColor":"#293e40","studio_template_field_id":"E6","Text":"","Font":{"Weight":"regular","Size":13},"CellId":"hidden_ind","TextAlignment":"Left","MaxLines":1,"Type":"Text"}],"Distribution":"Auto","Alignment":"Center","Orientation":"Horizontal","Margin":{"Top":7},"Type":"ViewGroup"}],"Distribution":"Auto","Alignment":"Left","Orientation":"Vertical","Type":"ViewGroup"}],"Distribution":"Auto","studio_card_id":"9599488923452300a8ed7f4fc7bf652e","Alignment":"Stretch","Orientation":"Vertical","Margin":{"Bottom":15,"Top":17},"Type":"ViewGroup"}</item_view_json>
+        <name>BTKR List Screen Item View</name>
+        <short_description/>
+        <sys_class_name>sys_sg_item_view</sys_class_name>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-01 16:53:12</sys_created_on>
+        <sys_id>fcad23ecdb479850bdd3c553059619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BTKR List Screen Item View</sys_name>
+        <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
+        <sys_update_name>sys_sg_item_view_fcad23ecdb479850bdd3c553059619db</sys_update_name>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-01 16:53:12</sys_updated_on>
+        <table>x_guhs_build_track_btkr</table>
+        <ui_styles/>
+    </sys_sg_item_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</application>
+        <file_path/>
+        <instance_id>cda1ecd1db2a6f80b847ac44d4961987</instance_id>
+        <instance_name>gundersendev</instance_name>
+        <name>sys_sg_item_view_fcad23ecdb479850bdd3c553059619db</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view"><sys_sg_item_view action="INSERT_OR_UPDATE"><data_item/><dependency_fields>affected_app,category_item,change_request,change_type_no,deleted_ind,hidden_ind</dependency_fields><item_view_json>{"Children":[{"Children":[{"Children":[{"BackgroundColor":"#f1f1f1","TextColor":"#293e40","studio_template_field_id":"E1","Width":100,"Height":21,"Text":"","Font":{"Weight":"semibold","Size":13},"CornerRadius":2,"CellId":"affected_app","TextAlignment":"Center","MaxLines":1,"Type":"Text"}],"Distribution":"Auto","Alignment":"Left","Orientation":"Vertical","Margin":{"Right":12},"Type":"ViewGroup"},{"Children":[{"TextColor":"#7d8a8c","studio_template_field_id":"E2","Text":"","Font":{"Weight":"regular","Size":13},"CellId":"category_item","TextAlignment":"Right","MaxLines":1,"Type":"Text"}],"Distribution":"Auto","Alignment":"Right","Orientation":"Vertical","Type":"ViewGroup"}],"Distribution":"Equal","Alignment":"Stretch","Orientation":"Horizontal","Type":"ViewGroup"},{"TextColor":"#293e40","studio_template_field_id":"E3","Text":"","Font":{"Weight":"regular","Size":18},"CellId":"change_request","TextAlignment":"Left","MaxLines":2,"Margin":{"Top":9},"Type":"Text"},{"Children":[{"Children":[{"studio_template_is_label":true,"TextColor":"#7d8a8c","studio_template_field_id":"E4","Text":"${change_type_no}","Font":{"Weight":"regular","Size":13},"TextAlignment":"Left","MaxLines":1,"Margin":{"Right":8},"Type":"Text"},{"Scaling":"Fill","studio_template_field_id":"E5","Width":22,"Height":22,"CornerRadius":11,"CellId":"deleted_ind","Margin":{"Right":6},"Type":"Image"},{"TextColor":"#293e40","studio_template_field_id":"E4","Text":"","Font":{"Weight":"regular","Size":13},"CellId":"change_type_no","TextAlignment":"Left","MaxLines":1,"Type":"Text"}],"Distribution":"Auto","Alignment":"Center","Orientation":"Horizontal","Margin":{"Top":9},"Type":"ViewGroup"},{"Children":[{"studio_template_is_label":true,"TextColor":"#7d8a8c","studio_template_field_id":"E6","Text":"${hidden_ind}","Font":{"Weight":"regular","Size":13},"TextAlignment":"Left","MaxLines":1,"Margin":{"Right":8},"Type":"Text"},{"TextColor":"#293e40","studio_template_field_id":"E6","Text":"","Font":{"Weight":"regular","Size":13},"CellId":"hidden_ind","TextAlignment":"Left","MaxLines":1,"Type":"Text"}],"Distribution":"Auto","Alignment":"Center","Orientation":"Horizontal","Margin":{"Top":7},"Type":"ViewGroup"}],"Distribution":"Auto","Alignment":"Left","Orientation":"Vertical","Type":"ViewGroup"}],"Distribution":"Auto","studio_card_id":"9599488923452300a8ed7f4fc7bf652e","Alignment":"Stretch","Orientation":"Vertical","Margin":{"Bottom":15,"Top":17},"Type":"ViewGroup"}</item_view_json><name>BTKR List Screen Item View</name><short_description/><sys_class_name>sys_sg_item_view</sys_class_name><sys_created_by>VCheung</sys_created_by><sys_created_on>2020-09-01 16:53:12</sys_created_on><sys_id>fcad23ecdb479850bdd3c553059619db</sys_id><sys_mod_count>0</sys_mod_count><sys_name>BTKR List Screen Item View</sys_name><sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package><sys_policy/><sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope><sys_update_name>sys_sg_item_view_fcad23ecdb479850bdd3c553059619db</sys_update_name><sys_updated_by>VCheung</sys_updated_by><sys_updated_on>2020-09-01 16:53:12</sys_updated_on><table>x_guhs_build_track_btkr</table><ui_styles/></sys_sg_item_view></record_update>]]></payload>
+        <payload_hash>-816465156</payload_hash>
+        <record_name>BTKR List Screen Item View</record_name>
+        <reverted_from/>
+        <source>5f966fe0db479850bdd3c553059619f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-03 16:11:49</sys_created_on>
+        <sys_id>06577195dbc7dc50bdd3c5530596195f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17454bd0a7b0000001</sys_recorded_at>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-03 16:11:49</sys_updated_on>
+        <type>Item view</type>
+        <update_guid>15ad63e42a8798504a5f24f18bdfe423</update_guid>
+        <update_guid_history>15ad63e42a8798504a5f24f18bdfe423:1998817526,15ad63e42a8798504a5f24f18bdfe423:1998817526</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>VCheung</sys_created_by>
+        <sys_created_on>2020-09-03 16:11:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_item_view">sys_sg_item_view</sys_db_object>
+        <sys_id>2edc4aecf04640bc9eb4eb0f04707209</sys_id>
+        <sys_metadata>fcad23ecdb479850bdd3c553059619db</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BTKR List Screen Item View</sys_name>
+        <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
+        <sys_scope_delete display_value="">13a25a3bcc3842cf835be9ae40594fc9</sys_scope_delete>
+        <sys_update_name>sys_sg_item_view_fcad23ecdb479850bdd3c553059619db</sys_update_name>
+        <sys_update_version display_value="sys_sg_item_view_fcad23ecdb479850bdd3c553059619db">06577195dbc7dc50bdd3c5530596195f</sys_update_version>
+        <sys_updated_by>VCheung</sys_updated_by>
+        <sys_updated_on>2020-09-03 16:11:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
