@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="update_synch=true" extends="dl_matcher" label="Build Tracker INI" max_length="40" name="x_guhs_build_track_ini" sizeclass="61216" type="collection">
-        <element choice="1" label="INI" mandatory="true" max_length="40" name="ini" type="choice">
+    <element attributes="update_synch=true" extends="dl_matcher" label="Build Tracker INI" max_length="40" name="x_guhs_build_track_ini" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="INI" mandatory="true" max_length="40" name="ini" type="choice">
             <choice>
                 <element inactive_on_update="false" label="999" value="999"/>
                 <element inactive_on_update="false" label="A3P" value="A3P"/>

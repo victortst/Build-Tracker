@@ -24,6 +24,4 @@ If you find yourself unable to import your repository due to the presence of fil
    2.2 Activate/install all required dependencies
    2.3 Re-import the application from source control
    Currently listed dependencies:
-   * Global
    * Data Lookup and Record Matching Support
-   * System Import Sets

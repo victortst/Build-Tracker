@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="DELETE" field="ini" table="x_guhs_build_track_buit" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="ini" table="x_guhs_build_track_buit" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>IDM</dependent_value>
+            <dependent_value/>
+            <element>ini</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IDB</label>
+            <language>en</language>
+            <name>x_guhs_build_track_buit</name>
+            <sequence/>
+            <sys_created_by>VCheung</sys_created_by>
+            <sys_created_on>2020-09-09 17:47:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>33c645171b031c105b76b9d1cd4bcba8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>VCheung</sys_updated_by>
+            <sys_updated_on>2020-09-09 17:47:36</sys_updated_on>
+            <value>IDB</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
             <element>ini</element>
             <hint/>
             <inactive>false</inactive>
@@ -10,13 +29,13 @@
             <name>x_guhs_build_track_buit</name>
             <sequence/>
             <sys_created_by>VCheung</sys_created_by>
-            <sys_created_on>2020-09-09 17:07:20</sys_created_on>
+            <sys_created_on>2020-09-09 17:47:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>ca9df01fdb839810bdd3c553059619ef</sys_id>
+            <sys_id>7bc645171b031c105b76b9d1cd4bcba9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>VCheung</sys_updated_by>
-            <sys_updated_on>2020-09-09 17:07:20</sys_updated_on>
+            <sys_updated_on>2020-09-09 17:47:36</sys_updated_on>
             <value>IDM</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
@@ -24,8 +43,8 @@
             <name>x_guhs_build_track_buit</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>VCheung</sys_created_by>
-            <sys_created_on>2020-09-09 17:07:20</sys_created_on>
-            <sys_id>8e9df01fdb839810bdd3c553059619ee</sys_id>
+            <sys_created_on>2020-09-09 17:47:36</sys_created_on>
+            <sys_id>206dcabcdb5b1c50138454f948961913</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>ini</sys_name>
             <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
@@ -33,52 +52,7 @@
             <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
             <sys_update_name>sys_choice_x_guhs_build_track_buit_ini</sys_update_name>
             <sys_updated_by>VCheung</sys_updated_by>
-            <sys_updated_on>2020-09-09 17:07:20</sys_updated_on>
+            <sys_updated_on>2020-09-09 17:47:36</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
-    <sys_update_version action="INSERT_OR_UPDATE">
-        <action>DELETE</action>
-        <application display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</application>
-        <file_path/>
-        <instance_id>cda1ecd1db2a6f80b847ac44d4961987</instance_id>
-        <instance_name>gundersendev</instance_name>
-        <name>sys_choice_x_guhs_build_track_buit_ini</name>
-        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="ini" table="x_guhs_build_track_buit" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value>IDM</dependent_value><element>ini</element><hint/><inactive>false</inactive><label>IDM</label><language>en</language><name>x_guhs_build_track_buit</name><sequence/><sys_created_by>VCheung</sys_created_by><sys_created_on>2020-09-09 17:07:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ca9df01fdb839810bdd3c553059619ef</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>VCheung</sys_updated_by><sys_updated_on>2020-09-09 17:07:20</sys_updated_on><value>IDM</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>ini</element><name>x_guhs_build_track_buit</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>VCheung</sys_created_by><sys_created_on>2020-09-09 17:07:20</sys_created_on><sys_id>8e9df01fdb839810bdd3c553059619ee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ini</sys_name><sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package><sys_policy/><sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope><sys_update_name>sys_choice_x_guhs_build_track_buit_ini</sys_update_name><sys_updated_by>VCheung</sys_updated_by><sys_updated_on>2020-09-09 17:07:20</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
-        <payload_hash>1533296464</payload_hash>
-        <record_name>Build Tracker Item.INI</record_name>
-        <reverted_from/>
-        <source>5f966fe0db479850bdd3c553059619f2</source>
-        <source_table>sys_update_set</source_table>
-        <state>previous</state>
-        <sys_created_by>VCheung</sys_created_by>
-        <sys_created_on>2020-09-09 17:11:14</sys_created_on>
-        <sys_id>937ef0d31bcfd8105b76b9d1cd4bcb32</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_recorded_at>17473d998cc0000001</sys_recorded_at>
-        <sys_updated_by>VCheung</sys_updated_by>
-        <sys_updated_on>2020-09-09 17:11:14</sys_updated_on>
-        <type>Choice list</type>
-        <update_guid>1b7ef0d348cfd810316709dd46046831</update_guid>
-        <update_guid_history>1b7ef0d348cfd810316709dd46046831:1533296464,869df01f1883981082b132c49bea5bf1:-1920564725</update_guid_history>
-    </sys_update_version>
-    <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete/>
-        <sys_class_name>sys_metadata_delete</sys_class_name>
-        <sys_created_by>VCheung</sys_created_by>
-        <sys_created_on>2020-09-09 17:11:14</sys_created_on>
-        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
-        <sys_id>8e9df01fdb839810bdd3c553059619ee</sys_id>
-        <sys_metadata>8e9df01fdb839810bdd3c553059619ee</sys_metadata>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>ini</sys_name>
-        <sys_package display_value="Build Tracker" source="x_guhs_build_track">1b966fe0db479850bdd3c553059619f0</sys_package>
-        <sys_parent/>
-        <sys_policy/>
-        <sys_scope display_value="Build Tracker">1b966fe0db479850bdd3c553059619f0</sys_scope>
-        <sys_scope_delete display_value="">13a25a3bcc3842cf835be9ae40594fc9</sys_scope_delete>
-        <sys_update_name>sys_choice_x_guhs_build_track_buit_ini</sys_update_name>
-        <sys_update_version display_value="sys_choice_x_guhs_build_track_buit_ini">937ef0d31bcfd8105b76b9d1cd4bcb32</sys_update_version>
-        <sys_updated_by>VCheung</sys_updated_by>
-        <sys_updated_on>2020-09-09 17:11:14</sys_updated_on>
-    </sys_metadata_delete>
 </record_update>

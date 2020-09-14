@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
     <sys_sg_item_stream action="INSERT_OR_UPDATE">
-        <data_item/>
+        <data_item display_value="">45ad23e4db879850bdd3c55305961986</data_item>
         <interleaved_field/>
         <name>INI Item Stream</name>
         <sys_class_name>sys_sg_item_stream</sys_class_name>

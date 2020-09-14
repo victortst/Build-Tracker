@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Build Tracker" max_length="40" name="x_guhs_build_track_btkr" sizeclass="21" type="collection">
+    <element label="Build Tracker" max_length="40" name="x_guhs_build_track_btkr" type="collection">
         <element label="Category Item" max_length="1000" name="category_item" type="string"/>
-        <element label="Change Request" max_length="32" name="change_request" reference="change_request" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Change Request" max_length="32" name="change_request" reference="change_request" type="reference"/>
         <element choice="1" label="Change Type" max_length="40" name="change_type" type="string">
             <choice>
                 <element inactive_on_update="false" label="New" sequence="1" value="1"/>
@@ -48,7 +48,7 @@
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" mandatory="true" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Record ID" mandatory="true" max_length="40" name="record_id" type="string"/>
         <element label="Record Name" max_length="200" name="record_name" type="string"/>
-        <element label="Requester" mandatory="true" max_length="32" name="requester" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Requester" mandatory="true" max_length="32" name="requester" reference="sys_user" type="reference"/>
         <element label="SN References" max_length="200" name="sn_references" type="string"/>
         <element choice="1" label="Source" max_length="40" name="source" type="string">
             <choice>

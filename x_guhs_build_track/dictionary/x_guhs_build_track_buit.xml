@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Build Tracker Item" max_length="40" name="x_guhs_build_track_buit" sizeclass="32" type="collection">
-        <element label="Build Tracker" mandatory="true" max_length="32" name="build_tracker" reference="x_guhs_build_track_btkr" reference_cascade_rule="cascade" reference_floats="true" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" choice_field="ini" choice_table="x_guhs_build_track_ini" label="INI" mandatory="true" max_length="40" name="ini" type="choice" use_dynamic_default="true">
+    <element label="Build Tracker Item" max_length="40" name="x_guhs_build_track_buit" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Build Tracker" mandatory="true" max_length="32" name="build_tracker" reference="x_guhs_build_track_btkr" reference_cascade_rule="cascade" reference_floats="true" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="ini" choice_table="x_guhs_build_track_ini" label="INI" mandatory="true" max_length="40" name="ini" type="choice" use_dynamic_default="true">
             <choice>
                 <element inactive_on_update="false" label="IDB" value="IDB"/>
                 <element inactive_on_update="false" label="IDM" value="IDM"/>
